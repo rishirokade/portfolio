@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import "./Header.css";
 export const Header = () => {
     return (
         <header>
@@ -16,7 +16,7 @@ export const Header = () => {
                         <Link to={"/projects"}>Projects</Link>
                     </li>
                     <li>
-                        <Link to={"/contact"}>contact</Link>
+                        <Link to={"/contact"}>Contact</Link>
                     </li>
                 </ul>
             </nav>
